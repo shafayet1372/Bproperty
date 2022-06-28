@@ -12,7 +12,7 @@ export default function DataView({ datas }) {
             <div className="d-flex">
               <div style={{ width: "30%", height: "auto" }}>
                 <img
-                  src={image}
+                  src={x.image}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
                 />

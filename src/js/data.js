@@ -1,4 +1,15 @@
 import { v4 as uuidv4 } from 'uuid'
+import Image1 from '../assets/images/image-1.jpg'
+import Image2 from '../assets/images/image-2.jpg'
+import Image3 from '../assets/images/image-3.jpg'
+import Image4 from '../assets/images/image-4.jpg'
+import Image5 from '../assets/images/image-5.jpg'
+import Image6 from '../assets/images/image-6.jpg'
+import Image7 from '../assets/images/image-7.jpg'
+import Image8 from '../assets/images/image-8.jpg'
+import Image9 from '../assets/images/image-9.jpg'
+import Image10 from '../assets/images/image-10.jpg'
+import Image11 from '../assets/images/image-11.jpg'
 const data = [
     {
         id: uuidv4(),
@@ -16,7 +27,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Ready'
-        }
+        },
+        image: Image1
     },
     {
         id: uuidv4(),
@@ -34,8 +46,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Under Construction'
-        }
-
+        },
+        image: Image2
     },
     {
         id: uuidv4(),
@@ -53,7 +65,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Ready'
-        }
+        },
+        image: Image3
 
     },
     {
@@ -72,7 +85,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Under Construction'
-        }
+        },
+        image: Image4
 
     },
     {
@@ -92,7 +106,8 @@ const data = [
             type: "Occupancy",
             status: 'Occupied'
         }
-
+        ,
+        image: Image5
     },
     {
         id: uuidv4(),
@@ -111,7 +126,8 @@ const data = [
             type: "Occupancy",
             status: 'Vacant'
         }
-
+        ,
+        image: Image6
 
     },
     {
@@ -131,7 +147,8 @@ const data = [
             type: "Completion",
             status: 'Ready'
         }
-
+        ,
+        image: Image7
     },
     {
         id: uuidv4(),
@@ -149,7 +166,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Under Construction'
-        }
+        },
+        image: Image8
 
     },
     {
@@ -168,7 +186,8 @@ const data = [
         statusType: {
             type: "Completion",
             status: 'Ready'
-        }
+        },
+        image: Image9
 
     },
     {
@@ -189,6 +208,8 @@ const data = [
             status: 'Ready'
         },
 
+        image: Image10
+
 
     }
     , {
@@ -208,6 +229,8 @@ const data = [
             type: "Completion",
             status: 'Under Construction'
         }
+        ,
+        image: Image11
 
     }
 ]
